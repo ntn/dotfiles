@@ -6,7 +6,7 @@ if [ "$SPIN" ]; then
         then
                 echo "ripgrep already installed"
         else
-                echo "installing rip-grep" 
+                echo "installing ripgrep" 
                 sudo apt-get install -y ripgrep
         fi
 fi
